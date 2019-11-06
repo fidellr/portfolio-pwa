@@ -1,4 +1,14 @@
 .gray {
   background-color: #666;
-  color: #fff
+  color: #fff;
+}
+
+.cyan {
+  color: cyan; 
+  background-color: cyan;
+}
+
+.blue {
+  color: #006eff;
+  background-color: #006eff;
 }

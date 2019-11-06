@@ -6,12 +6,13 @@ export default () => (
     <div className="hero-body">
       <div className="container">
         <h1 className="title">
-            Welcome to ReactPWA
+          Fidel
+          &rsquo;s Portfolio
         </h1>
         <h2 className="subtitle">
-            An extendable boilerplate built on top of PawJS, for developers
+          Hi, My name is Fidel Ramadhan, you can call me Fidel or "del" :).
         </h2>
-        <Link to="/home" className="button">Checkout the full demo</Link>
+        <Link to="/home" className="button">Checkout my page..</Link>
       </div>
     </div>
   </section>

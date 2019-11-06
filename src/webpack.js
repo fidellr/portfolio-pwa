@@ -7,6 +7,13 @@ export default class ProjectWebpack {
     // Add sass compiler to the project
     addPlugin(new SassPlugin());
     const optimizerOptions = {
+      rules: [
+        {
+          test: /\.jsx?$/,
+          loader: 'stylelint-custom-processor-loader',
+          exclude: /node_modules/,
+        },
+      ],
       supportedEnv: [
         'production',
       ],

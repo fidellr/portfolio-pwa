@@ -1,5 +1,5 @@
 {
-  "name": "react-pwa",
+  "name": "fidel-portfolio-pwa",
   "version": "2.2.6-alpha.0",
   "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
   "scripts": {
@@ -10,13 +10,13 @@
     "test": "pawjs --no-cache test"
   },
   "author": {
-    "name": "Atyantik Technologies",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
+    "name": "Fidel Ramadhan",
+    "email": "fidelramadhan@gmail.com",
+    "url": "https://www.fidelramadhan.com/"
   },
   "contributors": [
     {
-      "name": "Tirth Bodawala",
+      "name": "Tirth Bodawala`  ",
       "email": "tirthbodawala@atyantik.com",
       "url": "https://www.atyantik.com/"
     },
@@ -45,10 +45,12 @@
     "fork-ts-checker-webpack-plugin": "^1.3.5",
     "prop-types": "^15.7.2",
     "snyk": "^1.173.1",
+    "styled-components": "^4.4.1",
     "universal-fetch": "^1.0.0"
   },
   "snyk": true,
   "devDependencies": {
+    "stylelint-custom-processor-loader": "^0.6.0",
     "webpack-bundle-analyzer": "^3.3.2"
   }
 }

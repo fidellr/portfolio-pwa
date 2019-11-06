@@ -11,7 +11,7 @@ export default [
     exact: true,
     component: () => import('../components/home'),
     seo: {
-      title: 'Home | ReactPWA Demo',
+      title: 'Home | Fidel Portfolio',
       description: 'Feature set offered by ReactPWA with pluggable @pawjs plugins. ReactPWA is highly customizable and once can achieve anything as it is extendable',
       image: FeaturesImage,
     },
@@ -50,7 +50,7 @@ export default [
     skeleton,
     seo: {
       title: 'Skeleton Loading | ReactPWA Demo',
-      description: 'Tired of adding ugly loaders? Do not let your users get confused, give them the best user experience of what is getting loaded. Use Skeleton Loading',
+      description: 'Tisred of adding ugly loaders? Do not let your users get confused, give them the best user experience of what is getting loaded. Use Skeleton Loading',
       image: SkeletonImage,
     },
   },
